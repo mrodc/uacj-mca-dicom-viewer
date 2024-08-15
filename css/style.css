@@ -1,0 +1,264 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+/* .claro .demoLayout .edgePanel {
+    background-color: #d0e9fc;
+} */
+
+
+.scrollC {
+  overflow: scroll;
+}
+
+.image-upload {
+  display: none;
+}
+
+.hideClass {
+  display: none;
+}
+
+.wsError {
+  background-image: url('/img/imagesAll/16/icon140.png');
+  width: 16px;
+  height: 16px;
+}
+
+
+.openBook {
+  background-image: url('/img/Book_openHS.png');
+  width: 16px;
+  height: 16px;
+}
+
+.serverOK {
+  background-image: url('/mg/imagesAll/16/icon106.png');
+  width: 16px;
+  height: 16px;
+}
+
+.resendFile {
+  background-image: url('/mg/imagesAll/16/icon140.png');
+  width: 16px;
+  height: 16px;
+}
+
+.loadFile {
+  background-image: url('/mg/imagesAll/16/icon132.png');
+  width: 16px;
+  height: 16px;
+}
+
+
+.topM {
+  margin-top: 4px;
+}
+
+.midFont {
+  font-size: 14px;
+}
+
+
+.predictClass tr:hover {
+  background-color: rgb(193, 242, 245);
+}
+
+.predictCell {
+  padding: 4px;
+  border-spacing: 0;
+  border-bottom: 1px solid #ddd;
+  /* font-size: 12px; */
+
+}
+
+.thumbnail-list {
+  /* remove default list styles */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* remove spaces between li tags*/
+  font-size: 0;
+}
+
+.thumbnail-list li {
+  display: inline-block;
+  vertical-align: top;
+  width: 33.333%;
+  padding: 2%;
+  box-sizing: border-box;
+}
+
+.thumbnail-list img {
+  display: block;
+  width: 100%;
+}
+
+img.thumb:hover {
+  border: dotted 2px green;
+  border-radius: 6px;
+  margin: -2px;
+}
+
+.imageBorder {
+  /* border: solid 2px red; */
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+  border-bottom: 4px solid red;
+  /* border-radius: 6px; */
+  margin: -2px;
+}
+
+img.thumb {
+  padding-right: 4px;
+  padding-left: 4px;
+  cursor: pointer;
+  width: 90px;
+  height: 110px;
+
+
+}
+
+td.tdImg {
+  text-align: center;
+  color: blue;
+  font-style: italic;
+  font-size: 10px;
+}
+
+td.tdFltr {
+  text-align: center;
+  color: blue;
+  font-style: italic;
+  font-size: 12px;
+}
+
+td.cfMatrixT {
+  /* text-align: center; */
+  /* color: blue; */
+  /* font-style: italic; */
+  font-size: 12px;
+  /* white-space: pre; */
+}
+
+.margin40 {
+  font-style: italic;
+  margin-left: 30px;
+  font-size: 12px;
+}
+
+.margin20 {
+  font-style: italic;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+/* figcaption {
+  background-color: white;
+  color: blue;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+  width: 50px;
+} */
+
+
+.verticalWrite {
+  /* writing-mode: vertical-lr; 
+transform: rotate(180deg); 
+border-left: 2px solid navy;*/
+  background-color: #EBF5FB;
+  border-right: 2px solid navy;
+  color: navy;
+
+}
+
+.predictedClass {
+  background-color: #EBF5FB;
+  border-bottom: 2px solid navy;
+  color: navy;
+
+}
+
+table.mlReport td {
+  font-size: 12px;
+
+}
+
+table.mlReport caption {
+
+  white-space: pre;
+}
+
+table.predictClass td {
+  font-size: 12px;
+  white-space: pre;
+ 
+}
+
+.setborder {
+  border-bottom: 2px solid blue;
+  text-align: center;
+  font-size: '14px';
+  font-weight: bold;
+
+}
+
+.modelborder {
+  border-bottom: 2px solid salmon;
+  font-size: '14px';
+  font-weight: bold;
+  margin: top 4px;
+  /* padding: 4px; */
+  /* text-align: center; */
+}
+
+.setLeft {
+  text-align: left;
+  margin-left: 4px;
+}
+
+.setRight {
+  text-align: right;
+  margin-right: 4px;
+}
+
+.setCenter {
+  text-align: center;
+}
+
+.spanClass {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.spanModel {
+  margin-top: 16px;
+  
+}
+
+.setPadding{
+  padding-top: 10px;
+}
+.padded{
+  padding: 8px;
+}
+.spModel{
+  margin-left: 25px;
+}
+.prdSpan{
+  margin-left:  10px;
+  margin-right: 4px;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.modelTitle{
+  margin-left:  10px;
+  font-size: large;
+  color: blue;
+  
+}
